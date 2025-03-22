@@ -1,6 +1,9 @@
 import React from 'react'
+import { useForm } from 'react-hook-form'
 
 export function YouTubeForm() {
+  const form = useForm();
+
   return (
     <div>
       <form style={{display: "flex", flexDirection: 'column', gap: '5px'}}>

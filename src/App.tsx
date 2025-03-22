@@ -1,6 +1,6 @@
 import './App.css'
 
-import { YouTubeForm } from './components/YouTubeForm'
+import {YouTubeForm} from './components/YouTubeForm.tsx'
 
 function App() {
 
