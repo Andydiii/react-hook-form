@@ -27,7 +27,7 @@ export function YouTubeForm() {
         <label htmlFor="username"> Username </label>
         <input type="text" id="username" {...register("username", {
           required: {     // if input exists, no error, else error message
-            value: true,
+            value: true, 
             message: "Username is required" // default error handling: if input exists, no error, else error message
           }
         })}/>
